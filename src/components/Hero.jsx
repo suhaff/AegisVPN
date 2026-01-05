@@ -1,11 +1,18 @@
 export default function Hero() {
   return (
-    <section>
-      <h1>Your Internet. Your Rules.</h1>
-      <p>
-        Secure, private, and unrestricted browsing using high-speed VPN servers
-        built for modern users.
-      </p>
+    <section id="home" className="hero">
+      <div className="planet-container">
+        <div className="planet"></div>
+      </div>
+
+      <div className="hero-content">
+        <h1>Your Internet. Your Rules.</h1>
+        <p>
+          AegisVPN provides encrypted, private, and unrestricted internet access
+          using ultra-fast global VPN servers built for modern privacy needs.
+        </p>
+        <button className="cta">Secure My Connection</button>
+      </div>
     </section>
   );
 }
